@@ -20,8 +20,7 @@ main .home-break{
 
 main .container-home{
     box-sizing: border-box !important;
-    padding: 1.5rem;
-    padding-top: 0;
+    padding: 0rem 1.5rem 0rem 1.5rem;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -34,7 +33,7 @@ main .container-home{
     background-color: rgba(0,0,0,.4);
     background-blend-mode: darken;
     background-position: center;
-    background-image: url("../../images/home-gtps7/autumn\ record.webp");
+    background-image: url("../../images/home-gtps7/image_150623.png");
     background-blend-mode: darken;
 }
 main .container-home .home-content-wrapper{
@@ -80,12 +79,12 @@ main .btn-conteiner a{
 
 main .container-home .people{
   position: absolute;
-  bottom: -2px;
+  bottom: 0;
   left: 0;
 }
 main .container-home .peoplef {
   position: absolute;
-  bottom: -2px;
+  bottom: 0;
   right: 0;
 }
 
@@ -94,7 +93,7 @@ main .container-home .peoplef {
     main .container-home{
         background-color: rgba(0,0,0,.4);
         background-blend-mode: darken;
-        padding: 4rem;
+        padding: 0rem 4rem 0rem 4rem;
     }
 }
 @media only screen and (min-width: 707px){
@@ -106,7 +105,7 @@ main .container-home .peoplef {
 }
 @media only screen and (min-width:768px){
   main .container-home{
-    padding: 8rem;
+    padding: 6rem;
   }
 }
 
@@ -117,7 +116,7 @@ main .container-home .peoplef {
 }
 @media only screen and (min-width:1110px){
   main .container-home{
-    padding: 19rem;
+    padding: 15rem;
   }
 
 }
