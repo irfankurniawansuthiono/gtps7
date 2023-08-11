@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+/* UNIVERSAL CSS */
+*{
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+:root{
+  --primary-color: #E27F1E;
+  --bold-text-color: #D23F1A;
+  --background-color: #233741;
+  --background-color-2: #25323E;
+  --button-background: rgba(221, 184, 28, .2);
+  --button-outline : #e27f1e;
+}
+
+/* css inside home container */
+main .home-break{
+    padding-bottom: 6rem;
+}
+
+main .container-home{
+    box-sizing: border-box !important;
+    padding: 1.5rem;
+    padding-top: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,.4);
+    background-blend-mode: darken;
+    background-position: center;
+    background-image: url("../../images/home-gtps7/autumn\ record.webp");
+    background-blend-mode: darken;
+}
+main .container-home .home-content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: .8rem;
+}
+main .container-home .home-content-wrapper h1{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+main .container-home .home-content-wrapper p{
+  line-height: 2rem;
+}
+main .container-home .home-content-wrapper p b{
+  font-weight: bolder;
+  color: var(--bold-text-color);
+}
+main .btn-conteiner{
+  border: 2px solid var(--button-outline);
+  background: var(--button-background);
+  padding: .5rem 1rem;
+  cursor: pointer;
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+}
+main .btn-conteiner img{
+  width: 2rem;
+}
+main .btn-conteiner:hover{
+  opacity: .7;
+}
+main .btn-conteiner a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main .container-home .people{
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+main .container-home .peoplef {
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+}
+
+/* media query responsive */
+@media only screen and (min-width: 467px){
+    main .container-home{
+        background-color: rgba(0,0,0,.4);
+        background-blend-mode: darken;
+        padding: 4rem;
+    }
+}
+@media only screen and (min-width: 707px){
+  main .container-home .home-content-wrapper h1 {
+      font-size: 5rem;
+      font-weight: 800;
+      color: var(--primary-color);
+    }
+}
+@media only screen and (min-width:768px){
+  main .container-home{
+    padding: 8rem;
+  }
+}
+
+@media only screen and (min-width: 996px) and (max-width: 1113px){
+  .btn-content{
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width:1110px){
+  main .container-home{
+    padding: 19rem;
+  }
+
+}
